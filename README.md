@@ -8,7 +8,7 @@ Exited binary classification
 [04] 使用 RandomizedSearchCV 調整 XGBoost 參數-classification
 [05] 使用XGBoost_資料清理和特徵工程調參_根據正負樣本比例設置範圍-classification
 #目前以 [04]版本為佳，使用 RandomizedSearchCV 調整 XGBoost 參數-classification，請看line 77
-[05]清理後檔案請見cleaned_train_data.xlsx檔案。code檔名如上。
+[05]清理後檔案請見cleaned_train_data.xlsx檔案。[01]-[05]code在codes資料夾。
 
 [01] RandomForestClassifier
 F1 Score: 0.6030035335689046
@@ -52,7 +52,6 @@ Confusion Matrix:
 •	False Positives (FP)：從 952 增加到 992，錯誤預測的未離職員工增加了 40 個。
 •	False Negatives (FN)：從 3542 增加到 3553，錯誤預測的離職員工增加了 11 個。
 •	True Positives (TP)：從 3413 降至 3402，正確預測的離職員工減少了 11 個。
-
 
 [03] XGBoost-classification
 F1 Score: 0.6442645736243969
