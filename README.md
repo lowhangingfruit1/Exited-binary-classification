@@ -1,8 +1,13 @@
 # Exited-binary-classification
 Exited binary classification
 
-共嘗試5次，目前以 [04]版本為佳，使用 RandomizedSearchCV 調整 XGBoost 參數-classification，請看line 72
-
+共嘗試5次，分別是
+[01] RandomForestClassifier
+[02] RandomForest調整樣本權重--classification
+[03] XGBoost-classification
+[04] 使用 RandomizedSearchCV 調整 XGBoost 參數-classification
+[05] 使用XGBoost_資料清理和特徵工程調參_根據正負樣本比例設置範圍-classification目前以 [04]版本為佳，使用 RandomizedSearchCV 調整 XGBoost 參數-classification，請看line 77
+檔案請見file資料夾，code請見code202411資料夾
 
 [01] RandomForestClassifier
 F1 Score: 0.6030035335689046
