@@ -1,5 +1,0 @@
-RandomForestClassifier
-F1 Score: 0.6030035335689046
-Confusion Matrix:
- [[25100   952]
- [ 3542  341
