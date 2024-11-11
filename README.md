@@ -7,8 +7,10 @@ Exited binary classification
 [03] XGBoost-classification
 [04] 使用 RandomizedSearchCV 調整 XGBoost 參數-classification
 [05] 使用XGBoost_資料清理和特徵工程調參_根據正負樣本比例設置範圍-classification
-#目前以 [04]版本為佳，使用 RandomizedSearchCV 調整 XGBoost 參數-classification，請看line 77
-[05]清理後檔案請見cleaned_train_data.xlsx檔案。[01]-[05]code在codes資料夾。
+#目前以 [04]版本為佳，使用 RandomizedSearchCV 調整 XGBoost 參數-classification，請看line 78
+#[05]清理後檔案請見cleaned_train_data.xlsx檔案。
+#[01]-[05]code在codes資料夾。
+#分類結果在Predicted Exited資料夾
 
 [01] RandomForestClassifier
 F1 Score: 0.6030035335689046
@@ -35,7 +37,6 @@ ROC 曲線顯示了模型在不同閾值下的預測能力。該曲線衡量的�
 •	模型在識別未離職員工（Negative Class）方面表現較好，這從混淆矩陣中的 True Negatives 大於 False Positives 可以看出。
 •	模型在識別離職員工（Positive Class）方面有一定挑戰，因為存在較多的 False Negatives，這也反映在中等的 F1 Score 上。
 •	ROC 曲線和 AUC 值表明模型具有良好的整體分辨能力，但模型的精確率和召回率之間可能存在一些權衡。
-
 
 [02] RandomForest調整樣本權重--classification
 RandomForestClassifier 中，可以使用 class_weight='balanced'，根據類別樣本數自動調整樣本權重，使模型更關注少數類別。
