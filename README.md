@@ -1,13 +1,13 @@
 # Exited-binary-classification
 Exited binary classification
 
-共嘗試5次，分別是
+5次結果，分別是
 [01] RandomForestClassifier
 [02] RandomForest調整樣本權重--classification
 [03] XGBoost-classification
 [04] 使用 RandomizedSearchCV 調整 XGBoost 參數-classification
 [05] 使用XGBoost_資料清理和特徵工程調參_根據正負樣本比例設置範圍-classification
-#目前以 [04]版本為佳，使用 RandomizedSearchCV 調整 XGBoost 參數-classification，請看line 78
+#目前以 [04]版本為佳，使用 RandomizedSearchCV 調整 XGBoost 參數-classification，見line 78
 #[05]清理後檔案請見cleaned_train_data.xlsx檔案。
 #[01]-[05]code在codes資料夾。
 #分類結果在Predicted Exited資料夾
