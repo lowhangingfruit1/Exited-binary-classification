@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Step 1: Load data
-train_df = pd.read_excel('C:/Users/DRCpro/Downloads/AID-interviewAssignment/AISD-interviewAssignment/train.xlsx')
-test_df = pd.read_excel('C:/Users/DRCpro/Downloads/AID-interviewAssignment/AISD-interviewAssignment/test.xlsx')
+train_df = pd.read_excel('/AISD-interviewAssignment/train.xlsx')
+test_df = pd.read_excel('/AISD-interviewAssignment/test.xlsx')
 
 # Step 2: Preprocess data
 # Separate features and target variable from training data
